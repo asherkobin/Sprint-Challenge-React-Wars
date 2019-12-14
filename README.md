@@ -1,3 +1,23 @@
+- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React JS is a library that allows the developer to copontentize a website.  Typically (or always) JSX is used to facilitate the creation of the HTML elements.  React manages state and will update components as needed if the state changes.  Internally, React uses a virtual DOM and will then "diff" that with the actual DOM, making changes as needed (rather than reloading the entire page).
+
+- [ ] What does it mean to _think_ in react?
+
+To use well-adoped steps in the creation of a React application.  Wireframe, data, components, state, passing date to components, etc.
+
+- [ ] Describe state.
+
+Data that may change during the lifecycle of the component/application.  React will monitor state and "react" appropriatly.
+
+- [ ] Describe props.
+
+Props is the data that can be passed down to child components for use there or further passing down.
+
+- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effects are actions done outside of React's domain (anything React doesn't know about).  Side effects are resolved with the useEffect function
+
 # Sprint Challenge: React - Star Wars
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored ReactJS, Function Components, component state and side effects. In your challenge for this Sprint, you will demonstrate proficiency by creating an application that uses ReactJS to consume live data retrieved from the World Wide Web and style that data nicely on the page.
